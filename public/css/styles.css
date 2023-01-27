@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.nav-class{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/back.minimal.coffe.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.blog-name{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: .4s;
+}
+nav ul li a:hover{
+    color: coral;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.acasa{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.acasa img{
+    height: auto;
+    width: 430px;
+}
+.acasa-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 97%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.acasa-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.acasa-text p{
+    color:grey;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid coral;
+    cursor: pointer;
+}
+.articole {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    background-size: cover;
+    background-position: center;
+}
+.nume-articole{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.articole .buton-articole{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.articole .buton-articole:hover{
+    background-color: transparent;
+    border: 2px solid coral;
+    cursor: pointer;
+}
+.contact-me{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    background-size: cover;
+    background-position: center;
+}
+.contact-me-me{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: absolute;
+    left:460px;
+    top:55px;
+}
+form{
+    color: white;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+.contact-me .buton-contact{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    border: 0.5px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    left: 560px;
+    top: 600px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .buton-contact:hover{
+    background-color: transparent;
+    border: 2px solid coral;
+    cursor: pointer;
+}
+.trimis{
+    width: 100%;
+    height: 730px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.nume-trimis{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.trimis .buton-trimis{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    border: 0.5px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    left: 80px;
+    top:20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.trimis .buton-trimis:hover{
+    background-color: transparent;
+    border: 2px solid coral;
+    cursor: pointer;
+}
+.articole-le{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    background-size: cover;
+    background-position: center;
+}
+.nume-articole{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: absolute;
+    left:460px;
+    top:55px;
+}
+.articole-le .buton-articole{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    border: 0.5px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    left: 560px;
+    top: 600px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.articole-le .buton-articole:hover{
+    background-color: transparent;
+    border: 2px solid coral;
+    cursor: pointer;
+}
+.article-title {
+    color:white;
+    font-size: 30px;
+    letter-spacing: 0px;
+    left:460px;
+    top:137px;
+    position: relative;
+}
+.article-text {
+    color:white;
+    font-size: 19px;
+    letter-spacing: 0px;
+    left:460px;
+    top:137px;
+    position: relative;
+}
+.text-article {
+    color:white;
+    font-size: 19px;
+    letter-spacing: 0px;
+    left:500px;
+    top:160px;
+    position: relative;
+}
+.articole-noi{
+    width: 100%;
+    height: 730px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.articole-noi-title{
+    color:white;
+    position: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.articole-le .nume-articole{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left:50px;
+}
+.form-group{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+.buton-titlu{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    border: 0.5px solid transparent;
+    font-weight: bold;
+    padding: 14px 31px;
+    left: 660px;
+    top: 500px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.buton-anulare{
+    background-color:coral;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    border: 0.5px solid transparent;
+    font-weight: bold;
+    padding: 14px 31px;
+    left: 460px;
+    top: 500px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+
+
